@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_child3"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle" />
+
+    <TextView
+        android:id="@+id/txname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:textColor="#121212"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_child3"
+        tools:text="@string/name1" />
+
+    <TextView
+        android:id="@+id/txdescribtion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:textColor="#6c6f74"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txname"
+        tools:text="@string/describ1" />
+
+    <TextView
+        android:id="@+id/tx_price_saled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:textColor="#fb5e57"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txdescribtion"
+        tools:text="@string/price_saled1" />
+
+    <TextView
+        android:id="@+id/tx_price_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textColor="#929292"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx_price_saled"
+        app:layout_constraintStart_toEndOf="@+id/tx_price_saled"
+        app:layout_constraintTop_toTopOf="@+id/tx_price_saled"
+        tools:text="@string/tx_price1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

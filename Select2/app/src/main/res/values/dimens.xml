@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_height">2dp</dimen>
+    <dimen name="toolbar_height">36dp</dimen>
+    <dimen name="guideline1">20dp</dimen>
+    <dimen name="tx_child4_parent">12dp</dimen>
+    <dimen name="tx_child4_img">16dp</dimen>
+    <dimen name="img_child4_endparent">24dp</dimen>
+    <dimen name="parent_rv_to_top">24dp</dimen>
+    <dimen name="tittle_parent_text_size">21sp</dimen>
+</resources>
